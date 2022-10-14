@@ -24,3 +24,5 @@ def comprobador():
     nueva_lista = modificador(lista)
     print( nueva_lista[0] == sum(nueva_lista[1:]) )
     True
+
+  
