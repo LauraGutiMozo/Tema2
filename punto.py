@@ -32,10 +32,10 @@ class punto:
 
         self.vector_x= c - self.x
         self.vector_y = d -self.y
-    def __str__ (self,vector_x, vector_y):
+    def __str__ (self):
         coordenadasBA = f"({self.vector_x},{self.vector_y})"
         return coordenadasBA
 
     def distancia (self):
-        distanciaAB = sqrt((self.vector_x**2) + (self.vector_y**2))
+        distanciaAB = math.sqrt(((self.vector_x**2) + (self.vector_y**2)))
         return distanciaAB
