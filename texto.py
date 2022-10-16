@@ -11,7 +11,9 @@ class Texto:
 
     def intro (self):
         lista = []
-        for palabraapalabra in range ():
+        largo = len(self.texto)
+        for palabraapalabra in range (largo):
             letra = self.texto[palabraapalabra]
-            if letra in texto =="#":
-                %/
+            if letra in self.texto =="#":
+                lista.append(largo)
+                #print(self.texto, end = "\n")
