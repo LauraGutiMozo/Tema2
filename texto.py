@@ -17,3 +17,5 @@ class Texto:
             if letra in self.texto =="#":
                 lista.append(largo)
                 #print(self.texto, end = "\n")
+
+texto = "#mira como se mueve aquella banderola -dijo un monje#lo que se mueve es el viento -respondió otro monje#ni las banderolas ni el viento, lo que se mueve son vuestras mentes -dijo el maestro"

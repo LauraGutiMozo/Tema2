@@ -1,6 +1,3 @@
-from audioop import add
-
-
 class modificador:
     def __Init__ (self,lista):
         self.lista = lista

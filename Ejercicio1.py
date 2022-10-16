@@ -8,14 +8,22 @@
 
 print("EJERCICIO 1" )
 
-import sys		
-sys.path.append("C:\Users\LAURA\Documents\GitHub\Tema2\punto.py")
+import sys
 
-from punto import punto
+from numpy import vectorize		
+sys.path.append("C:\Users\LAURA\Documents\GitHub\Tema2\Punto.py")
+sys.path.append("C:\Users\LAURA\Documents\GitHub\Tema2\rectangulo.py")
+
+from Punto import punto
 
 if "__name__==__main__":
-    print(punto)
+    print(punto())
+    print (punto.cuadrante())
+    print(punto.vector())
+    print(punto.distancia())
 
 from rectangulo import rectangulo
 if "__name__==__main__":
-    print 
+    print (rectangulo.base())
+    print (rectangulo.altura())
+    print(rectangulo.area())

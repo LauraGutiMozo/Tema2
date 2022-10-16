@@ -1,12 +1,6 @@
-from cmath import sqrt
-from unicodedata import numeric
-import math
+from math import sqrt
 
-
-
-
-
-class punto(numeric):
+class punto:
     def __init__ (self,x,y):
         self.x = x
         self.y = y
@@ -14,6 +8,7 @@ class punto(numeric):
         coordenadasA = f"({self.x},{self.y})"
         return coordenadasA
     def cuadrante (self):
+        cuadrante = None
         if self.x > 0  and self.y > 0:
             cuadrante = "CUADRANTE 1" 
         elif self.x > 0 and self.y < 0 :
@@ -24,9 +19,9 @@ class punto(numeric):
             cuadrante ="CUADRANTE 4" 
         elif self.x == 0 and self.y == 0:
             cuadrante ="LAS CORDENADAS SE ENCUENTRAN EN EL ORIGEN" 
-        elif self.x != 0 and sel.y == 0:
+        elif self.x != 0 and self.y == 0:
             cuadrante = "Sobre el ejer x"
-        elif self.x == 0 and sel.y != 0:
+        elif self.x == 0 and self.y != 0:
             cuadrante = "Sobre el ejer y"
         return cuadrante
 
@@ -35,12 +30,12 @@ class punto(numeric):
         d = int(input("Introduce la coordenada Y del vector B"))
         #El nuevo vector será la resta del vector A (que es el original) y el vector B
 
-        vector_x= c - self.x
-        vector_y = d -self.y
+        self.vector_x= c - self.x
+        self.vector_y = d -self.y
     def __str__ (self,vector_x, vector_y):
-        coordenadasBA = f"({vector_x},{vector_y})"
+        coordenadasBA = f"({self.vector_x},{self.vector_y})"
         return coordenadasBA
 
-    def distancia (self, vector_x, vector_y):
-        distanciaAB = sqrt((vector_x**2) + (vector_y**2))
+    def distancia (self):
+        distanciaAB = sqrt((self.vector_x**2) + (self.vector_y**2))
         return distanciaAB
