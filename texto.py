@@ -9,10 +9,9 @@ class Texto:
         self.texto = texto
 
 
-    def intro (self,lista,palabraapalabra,letra):
+    def intro (self):
         lista = []
         for palabraapalabra in range ():
             letra = self.texto[palabraapalabra]
             if letra in texto =="#":
                 %/
-texto = "#mira como se mueve aquella banderola -dijo un monje#lo que se mueve es el viento -respondió otro monje#ni las banderolas ni el viento, lo que se mueve son vuestras mentes -dijo el maestro"
