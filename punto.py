@@ -1,10 +1,6 @@
 from unicodedata import numeric
 import math
 
-
-
-Añade un método llamado cuadrante que indique a qué cuadrante pertenece el punto, teniendo en cuenta que si X == 0 e Y != 0 se sitúa sobre el eje Y, si X != 0 e Y == 0 se sitúa sobre el eje X y si X == 0 e Y == 0 está sobre el origen.
-
 Añade un método llamado vector, que tome otro punto y calcule el vector resultante entre los dos puntos.
 (Optativo) Añade un método llamado distancia, que tome otro punto y calcule la distancia entre los dos puntos y la muestre por pantalla. La fórmula es la siguiente:
 
@@ -54,4 +50,3 @@ class punto(numeric):
             return coordenadasB
 
     def distancia (self):
-        

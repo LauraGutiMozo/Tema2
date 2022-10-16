@@ -1,19 +1,12 @@
-Utilizando todo lo que sabes sobre cadenas, listas, sus métodos internos... Transforma este texto:
-un día que el viento soplaba con fuerza#mira como se mueve aquella banderola -dijo un monje#lo que se mueve es el viento -respondió otro monje#ni las banderolas ni el viento, lo que se mueve son vuestras mentes -dijo el maestro
-En este otro:
-Un día que el viento soplaba con fuerza...
-- Mira como se mueve aquella banderola -dijo un monje.
-- Lo que se mueve es el viento -respondió otro monje.
-- Ni las banderolas ni el viento, lo que se mueve son vuestras mentes -dijo el maestro.
-Lo único prohibido es modificar directamente el texto.
-
+#Escribimos el if anme ==main porque estamos importando la función intro de otro módulo
 
 print("EJERCICIO 2")
 
 import sys		
-sys.path.append("escribimos el URL de la ruta en específico como por ejemplo C:/USER...") #Solo se pone este o el siguiente
+sys.path.append("C:\Users\LAURA\Documents\GitHub\Tema2\texto.py") 
 
-from Ejercicio2 import nsque
+from texto import texto
 
-if "__name__==__main__"
+if "__name__==__main__":
+    print intro (texto)
 
