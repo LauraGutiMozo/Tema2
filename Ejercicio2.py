@@ -5,8 +5,8 @@ print("EJERCICIO 2")
 import sys		
 sys.path.append("C:\Users\LAURA\Documents\GitHub\Tema2\texto.py") 
 
-from texto import texto
+from texto import Texto
 
 if "__name__==__main__":
-    print intro (texto)
+    print (Texto)
 

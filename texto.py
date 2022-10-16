@@ -3,7 +3,7 @@
 
 #Creamos una clase, ya que todas las funciones que se encuentran dentro de la clase texto, van a definir al texto en si.
 
-class texto:
+class Texto:
 
     def __init__(self,texto):
         self.texto = texto
