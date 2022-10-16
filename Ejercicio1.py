@@ -8,3 +8,7 @@ from punto import punto
 if "__name__==__main__":
     print(punto)
 
+from rectangulo import rectangulo
+´
+if "__name__==__main__":
+    print 
