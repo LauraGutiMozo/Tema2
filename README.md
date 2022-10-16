@@ -6,9 +6,6 @@ Laura Gutiérrez mozo
 
 
 Ejercicio 1
-
-
-Ejercicio
 Crea una clase llamada Punto con sus dos coordenadas X e Y.
 Añade un método constructor para crear puntos fácilmente. Si no se reciben una coordenada, su valor será cero.
 
